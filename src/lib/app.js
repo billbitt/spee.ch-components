@@ -9,11 +9,11 @@ import { dynamicImport } from './utils/dynamicImport';
 
 const customizedApp = (siteConfig) => {
     console.log(siteConfig);
-    const HomePage = dynamicImport('pages/HomePage', siteConfig);
-    const AboutPage = dynamicImport('pages/AboutPage', siteConfig);
-    const LoginPage = dynamicImport('pages/LoginPage', siteConfig);
-    const ShowPage = dynamicImport('pages/ShowPage', siteConfig);
-    const FourOhFourPage = dynamicImport('pages/FourOhFourPage', siteConfig);
+    const HomePage = dynamicImport('pages/HomePage', siteConfig) || require('./pages/HomePage');
+    const AboutPage = dynamicImport('pages/AboutPage', siteConfig) || require('./pages/AboutPage');
+    const LoginPage = dynamicImport('pages/LoginPage', siteConfig) || require('./pages/LoginPage');
+    const ShowPage = dynamicImport('pages/ShowPage', siteConfig) || require('./pages/ShowPage');
+    const FourOhFourPage = dynamicImport('pages/FourOhFourPage', siteConfig) || require('./pages/FourOhFourPage');
 
     return () => {
         return (
