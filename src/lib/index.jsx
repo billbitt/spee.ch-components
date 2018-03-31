@@ -17,7 +17,7 @@ import ChannelCreateForm from './containers/ChannelCreateForm';
 import ChannelLoginForm from './containers/ChannelLoginForm';
 import ChannelSelect from './containers/ChannelSelect';
 import Dropzone from './containers/Dropzone';
-import FourOhFourPage from './containers/FourOhFourPage';
+import FourOhFourPage from './pages/FourOhFourPage';
 import NavBar from './containers/NavBar';
 import PublishDetails from './containers/PublishDetails';
 import PublishDisabledMessage from './containers/PublishDisabledMessage';

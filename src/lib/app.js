@@ -5,7 +5,7 @@ import { dynamicImport } from './utils/dynamicImport';
 // import AboutPage from './pages/AboutPage';
 // import LoginPage from './pages/LoginPage';
 // import ShowPage from './pages/ShowPage';
-// import FourOhFourPage from './containers/FourOhFourPage';
+// import FourOhFourPage from './pages/FourOhFourPage';
 
 const customizedApp = (siteConfig) => {
     console.log(siteConfig);

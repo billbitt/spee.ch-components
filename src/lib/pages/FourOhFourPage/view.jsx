@@ -1,6 +1,6 @@
 import React from 'react';
 import Helmet from 'react-helmet';
-import NavBar from '../../containers/NavBar';
+import NavBar from '../../containers/NavBar/index';
 
 class FourOhForPage extends React.Component {
   render () {
