@@ -1,14 +1,19 @@
 import React from 'react';
 import { Route, Switch } from 'react-router-dom';
+import { dynamicImport } from './utils/dynamicImport';
+// import HomePage from './pages/HomePage';
+// import AboutPage from './pages/AboutPage';
+// import LoginPage from './pages/LoginPage';
+// import ShowPage from './pages/ShowPage';
+// import FourOhFourPage from './containers/FourOhFourPage';
 
 const customizedApp = (siteConfig) => {
-    import { dynamicImport } from './utils/dynamicImport';
     console.log(siteConfig);
     const HomePage = dynamicImport('pages/HomePage', siteConfig);
     const AboutPage = dynamicImport('pages/AboutPage', siteConfig);
-    import LoginPage from './pages/LoginPage';
-    import ShowPage from './pages/ShowPage';
-    import FourOhFourPage from './containers/FourOhFourPage';
+    const LoginPage = dynamicImport('pages/LoginPage', siteConfig);
+    const ShowPage = dynamicImport('pages/ShowPage', siteConfig);
+    const FourOhFourPage = dynamicImport('pages/FourOhFourPage', siteConfig);
 
     return () => {
         return (
