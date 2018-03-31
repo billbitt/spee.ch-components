@@ -5,9 +5,11 @@ const customizedPublishReducer = (siteConfig) => {
   // parse inputs
   let disabledConfig = false;
   let disabledMessageConfig = 'none';
-  if (siteConfig ){
-    disabledConfig = publishing.disabled;
-    disabledMessageConfig = publishing.disabledMessage
+  if (siteConfig){
+      if (siteConfig.publishing) {
+          disabledConfig = siteconfig.publishing.disabled;
+          disabledMessageConfig = siteConfig.publishing.disabledMessage
+      }
   }
   // create initial state
   const initialState = {
