@@ -1,4 +1,3 @@
-
 function getDeepestChildValue (parent, childrenKeys) {
   if (!parent[childrenKeys[0]]) {
     return null;
@@ -31,10 +30,10 @@ export const dynamicImport = (filePath, {customComponents}) => {
   // i.e. customComponents[folders[0]][folders[2][...][folders[n]]
   const component = getDeepestChildValue(customComponents, folders);
   if (component) {
-    console.log('Found custom component:', component);
+    console.log('Found custom component for', filePath);
     return component;
   } else {
-    console.log('Found custom component:', component);
+    console.log('No custom component found for ', filePath);
     return null;
   }
 };
