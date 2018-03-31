@@ -1,9 +1,8 @@
-// app
+// app, reducers, sagas, actions
 import App from './app';
-// reducers
 import Reducers from './reducers';
-// sagas
 import Sagas from './sagas';
+import Actions from './actions';
 // containers
 import AboutPage from './pages/AboutPage';
 import ErrorPage from './pages/ErrorPage';
@@ -49,7 +48,8 @@ import SEO from './components/SEO';
 module.exports = {
     App,
     Reducers,
-    Sagas,
+    Sagas, // includes all the sagas
+    Actions, // includes all the actions
     AboutPage,
     ErrorPage,
     HomePage,
