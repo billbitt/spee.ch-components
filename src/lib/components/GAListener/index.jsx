@@ -1,7 +1,9 @@
 import React from 'react';
 import GoogleAnalytics from 'react-ga';
 import { withRouter } from 'react-router-dom';
-const { analytics: { googleId } } = require('siteConfig.js');
+
+// const { analytics: { googleId } } = require('siteConfig.js');
+const googleId = 'test';
 
 GoogleAnalytics.initialize(googleId);
 

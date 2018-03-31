@@ -4,9 +4,13 @@ import ChannelReducer from './channel';
 import ShowReducer from './show';
 import SiteReducer from './site';
 
-export default combineReducers({
-  channel: ChannelReducer,
-  publish: PublishReducer,
-  show   : ShowReducer,
-  site   : SiteReducer,
-});
+const customizedReducers = (siteConfig) => {
+  return combineReducers({
+      channel: ChannelReducer,
+      publish: PublishReducer(siteConfig),
+      show   : ShowReducer,
+      site   : SiteReducer(siteConfig),
+  })
+};
+
+export default customizedReducers;
