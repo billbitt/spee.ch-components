@@ -1,6 +1,6 @@
 {
   "name": "spee.ch-components",
-  "version": "0.2.3",
+  "version": "0.3.0",
   "description": "A component react-component library for spee.ch",
   "main": "lib/index.js",
   "scripts": {
