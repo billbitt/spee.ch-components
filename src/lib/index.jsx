@@ -48,7 +48,7 @@ import SEO from './components/SEO';
 // or should all the configs just come from the store (assuming the initial config can be used to config the store)?
 module.exports = {
     App,
-    Reducers: Reducers(siteConfig),
+    Reducers,
     Sagas, // includes all the sagas
     Actions, // includes all the actions
     AboutPage,
