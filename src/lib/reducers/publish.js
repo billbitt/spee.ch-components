@@ -7,7 +7,7 @@ const customizedPublishReducer = (siteConfig) => {
   let disabledMessageConfig = 'none';
   if (siteConfig){
       if (siteConfig.publishing) {
-          disabledConfig = siteconfig.publishing.disabled;
+          disabledConfig = siteConfig.publishing.disabled;
           disabledMessageConfig = siteConfig.publishing.disabledMessage
       }
   }
