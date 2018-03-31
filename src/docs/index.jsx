@@ -1,14 +1,16 @@
 import React from "react";
 import { render } from "react-dom";
-import { MyButton, MyHeader } from "../../lib";
+import { Logo, NavBar } from "../../lib";
 import "./styles.css";
 
 function Demo() {
   return (
     <div>
       <h1>Demo with examples of the components</h1>
-      <MyHeader color="blue">Wow what a header</MyHeader>
-      <MyButton color="brown">Wow what a button</MyButton>
+      <h2>Logo...</h2>
+      <Logo />
+      <h2>NavBar..</h2>
+      <NavBar />
     </div>
   );
 }
