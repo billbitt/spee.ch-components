@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="4414cf86-70bc-43fa-9d09-f3d60117e784" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.babelrc" afterPath="$PROJECT_DIR$/.babelrc" />
-      <change beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -47,8 +46,8 @@
       <file leaf-file-name=".babelrc" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.babelrc">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
+            <state relative-caret-position="34">
+              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -341,12 +340,12 @@
       <option name="presentableId" value="Default" />
       <updated>1522453441761</updated>
       <workItem from="1522453443068" duration="56000" />
-      <workItem from="1522453513208" duration="3471000" />
+      <workItem from="1522453513208" duration="3603000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3527000" />
+    <option name="totallyTimeSpent" value="3659000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
@@ -506,8 +505,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.babelrc">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="87" lean-forward="false" selection-start-line="1" selection-start-column="87" selection-end-line="1" selection-end-column="87" />
+        <state relative-caret-position="34">
+          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
           <folding />
         </state>
       </provider>
