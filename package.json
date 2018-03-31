@@ -10,7 +10,11 @@
     "docs:prod": "webpack -p",
     "prepublish": "npm run build"
   },
-  "keywords": ["spee.ch", "lbry", "react"],
+  "keywords": [
+    "spee.ch",
+    "lbry",
+    "react"
+  ],
   "license": "MIT",
   "peerDependencies": {
     "react": "^15.3.0 || ^16.2.0",
@@ -19,6 +23,7 @@
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.37",
     "@babel/core": "^7.0.0-beta.37",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.42",
     "@babel/preset-env": "^7.0.0-beta.37",
     "@babel/preset-react": "^7.0.0-beta.37",
     "babel-loader": "^8.0.0-beta.0",
