@@ -36,9 +36,9 @@
     "webpack-dev-server": "^2.11.0"
   },
   "author": "@billbitt",
-  "homepage": "https://github.com/yogaboll/react-npm-component-starter",
+  "homepage": "https://github.com/billbitt/spee.ch-components",
   "repository": {
     "type": "git",
-    "url": "git@github.com:yogaboll/react-npm-component-starter.git"
+    "url": "git@github.com:billbitt/spee.ch-components.git"
   }
 }

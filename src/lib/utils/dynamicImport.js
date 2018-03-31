@@ -1,4 +1,3 @@
-
 function getDeepestChildValue (parent, childrenKeys) {
   if (!parent[childrenKeys[0]]) {
     return null;
