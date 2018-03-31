@@ -1,7 +1,7 @@
 import { call, put, select, takeLatest } from 'redux-saga/effects';
 import * as actions from '../constants/show_action_types';
-import { addRequestToRequestList, onRequestError, onRequestUpdate, addAssetToAssetList } from '../../actions/show';
-import { getLongClaimId, getShortId, getClaimData } from '../../api/assetApi';
+import { addRequestToRequestList, onRequestError, onRequestUpdate, addAssetToAssetList } from '../actions/show';
+import { getLongClaimId, getShortId, getClaimData } from '../api/assetApi';
 import { selectShowState } from '../selectors/show';
 import { selectSiteHost } from '../selectors/site';
 

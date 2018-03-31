@@ -1,4 +1,4 @@
-import {updateClaim, updateError} from '../../../actions/publish';
+import {updateClaim, updateError} from '../../actions/publish';
 import {connect} from 'react-redux';
 import View from './view';
 

@@ -1,4 +1,4 @@
-import Request from '../components/utils/request';
+import Request from '../utils/request';
 
 export function checkFileAvailability (claimId, host, name) {
   const url = `${host}/api/file/availability/${name}/${claimId}`;

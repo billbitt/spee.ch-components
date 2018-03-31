@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { onUpdateChannelClaims } from '../../../actions/show';
+import { onUpdateChannelClaims } from '../../actions/show';
 import View from './view';
 
 const mapStateToProps = ({ show }) => {

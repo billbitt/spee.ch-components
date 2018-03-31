@@ -1,13 +1,13 @@
 import { call, put, select, take, takeLatest } from 'redux-saga/effects';
 import * as actions from '../constants/publish_action_types';
 import * as publishStates from '../constants/publish_claim_states';
-import { updateError, updatePublishStatus, clearFile } from '../../actions/publish';
+import { updateError, updatePublishStatus, clearFile } from '../actions/publish';
 import { selectPublishState } from '../selectors/publish';
 import { selectChannelState } from '../selectors/channel';
 import { selectSiteState } from '../selectors/site';
 import { validateChannelSelection, validatePublishParams } from '../utils/validate';
 import { createPublishMetadata, createPublishFormData, createThumbnailUrl } from '../utils/publish';
-import { makePublishRequestChannel } from '../../channels/publish';
+import { makePublishRequestChannel } from '../channels/publish';
 
 function * publishFile (action) {
   const { history } = action.data;

@@ -1,8 +1,8 @@
 import {call, put, select, takeLatest} from 'redux-saga/effects';
 import * as actions from '../constants/show_action_types';
-import { updateFileAvailability, updateDisplayAssetError } from '../../actions/show';
+import { updateFileAvailability, updateDisplayAssetError } from '../actions/show';
 import { UNAVAILABLE, AVAILABLE } from '../constants/asset_display_states';
-import { checkFileAvailability, triggerClaimGet } from '../../api/fileApi';
+import { checkFileAvailability, triggerClaimGet } from '../api/fileApi';
 import { selectSiteHost } from '../selectors/site';
 
 function * retrieveFile (action) {

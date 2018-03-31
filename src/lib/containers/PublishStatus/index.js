@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import {clearFile} from '../../../actions/publish';
+import {clearFile} from '../../actions/publish';
 import View from './view';
 
 const mapStateToProps = ({ publish }) => {

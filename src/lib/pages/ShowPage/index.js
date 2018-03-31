@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { onHandleShowPageUri } from '../../../actions/show';
+import { onHandleShowPageUri } from '../../actions/show';
 import View from './view';
 
 const mapStateToProps = ({ show }) => {

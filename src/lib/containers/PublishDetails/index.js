@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { clearFile, startPublish } from '../../../actions/publish';
+import { clearFile, startPublish } from '../../actions/publish';
 import View from './view';
 
 const mapStateToProps = ({ channel, publish }) => {

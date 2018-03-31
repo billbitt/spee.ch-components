@@ -1,6 +1,6 @@
 import { connect } from 'react-redux';
 import View from './view';
-import { fileRequested } from '../../../actions/show';
+import { fileRequested } from '../../actions/show';
 import { selectAsset } from '../../selectors/show';
 
 const mapStateToProps = ({ show }) => {

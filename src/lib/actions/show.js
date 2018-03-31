@@ -1,5 +1,5 @@
-import * as actions from '../components/constants/show_action_types';
-import { CHANNEL, ASSET_LITE, ASSET_DETAILS } from '../components/constants/show_request_types';
+import * as actions from '../constants/show_action_types';
+import { CHANNEL, ASSET_LITE, ASSET_DETAILS } from '../constants/show_request_types';
 
 // basic request parsing
 export function onHandleShowPageUri (params) {

@@ -2,112 +2,31 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4414cf86-70bc-43fa-9d09-f3d60117e784" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/docs/index.jsx" afterPath="$PROJECT_DIR$/src/docs/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/MyButton.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/MyHeader.jsx" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/actions/channel.js" afterPath="$PROJECT_DIR$/src/lib/actions/channel.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/actions/publish.js" afterPath="$PROJECT_DIR$/src/lib/actions/publish.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/actions/show.js" afterPath="$PROJECT_DIR$/src/lib/actions/show.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/api/assetApi.js" afterPath="$PROJECT_DIR$/src/lib/api/assetApi.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/api/channelApi.js" afterPath="$PROJECT_DIR$/src/lib/api/channelApi.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/api/fileApi.js" afterPath="$PROJECT_DIR$/src/lib/api/fileApi.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/app.js" afterPath="$PROJECT_DIR$/src/lib/app.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/channels/publish.js" afterPath="$PROJECT_DIR$/src/lib/channels/publish.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/ActiveStatusBar/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/ActiveStatusBar/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/AssetPreview/index.js" afterPath="$PROJECT_DIR$/src/lib/components/AssetPreview/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/AssetPreview/view.jsx" afterPath="$PROJECT_DIR$/src/lib/components/AssetPreview/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/ExpandingTextArea/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/ExpandingTextArea/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/GAListener/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/GAListener/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/InactiveStatusBar/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/InactiveStatusBar/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/Logo/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/Logo/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/NavBarChannelOptionsDropdown/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/NavBarChannelOptionsDropdown/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/ProgressBar/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/ProgressBar/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/PublishPreview/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/PublishPreview/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/PublishUrlMiddleDisplay/index.jsx" afterPath="$PROJECT_DIR$/src/lib/components/PublishUrlMiddleDisplay/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/SEO/index.js" afterPath="$PROJECT_DIR$/src/lib/components/SEO/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/components/SEO/view.jsx" afterPath="$PROJECT_DIR$/src/lib/components/SEO/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/constants/asset_display_states.js" afterPath="$PROJECT_DIR$/src/lib/constants/asset_display_states.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/constants/channel_action_types.js" afterPath="$PROJECT_DIR$/src/lib/constants/channel_action_types.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/constants/publish_action_types.js" afterPath="$PROJECT_DIR$/src/lib/constants/publish_action_types.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/constants/publish_channel_select_states.js" afterPath="$PROJECT_DIR$/src/lib/constants/publish_channel_select_states.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/constants/publish_claim_states.js" afterPath="$PROJECT_DIR$/src/lib/constants/publish_claim_states.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/constants/show_action_types.js" afterPath="$PROJECT_DIR$/src/lib/constants/show_action_types.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/constants/show_request_types.js" afterPath="$PROJECT_DIR$/src/lib/constants/show_request_types.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/AssetDisplay/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/AssetDisplay/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/AssetDisplay/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/AssetDisplay/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/AssetInfo/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/AssetInfo/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/AssetInfo/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/AssetInfo/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/AssetTitle/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/AssetTitle/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/AssetTitle/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/AssetTitle/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelClaimsDisplay/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelClaimsDisplay/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelClaimsDisplay/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelClaimsDisplay/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelCreateForm/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelCreateForm/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelCreateForm/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelCreateForm/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelLoginForm/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelLoginForm/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelLoginForm/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelLoginForm/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelSelect/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelSelect/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ChannelSelect/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelSelect/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/Dropzone/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/Dropzone/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/Dropzone/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/Dropzone/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/FourOhFourPage/index.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/FourOhFourPage/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/FourOhFourPage/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/FourOhFourPage/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/NavBar/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/NavBar/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/NavBar/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/NavBar/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishDetails/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishDetails/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishDetails/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishDetails/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishDisabledMessage/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishDisabledMessage/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishDisabledMessage/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishDisabledMessage/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishMetadataInputs/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishMetadataInputs/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishMetadataInputs/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishMetadataInputs/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishStatus/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishStatus/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishStatus/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishStatus/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishThumbnailInput/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishThumbnailInput/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishThumbnailInput/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishThumbnailInput/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishTitleInput/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishTitleInput/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishTitleInput/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishTitleInput/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishTool/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishTool/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishTool/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishTool/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishUrlInput/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishUrlInput/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/PublishUrlInput/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/PublishUrlInput/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ShowAssetDetails/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ShowAssetDetails/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ShowAssetDetails/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/ShowAssetDetails/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ShowAssetLite/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ShowAssetLite/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ShowAssetLite/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/ShowAssetLite/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ShowChannel/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ShowChannel/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/containers/ShowChannel/view.jsx" afterPath="$PROJECT_DIR$/src/lib/containers/ShowChannel/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/pages/AboutPage/index.jsx" afterPath="$PROJECT_DIR$/src/lib/pages/AboutPage/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/pages/ErrorPage/index.jsx" afterPath="$PROJECT_DIR$/src/lib/pages/ErrorPage/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/pages/HomePage/index.jsx" afterPath="$PROJECT_DIR$/src/lib/pages/HomePage/index.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/pages/LoginPage/index.js" afterPath="$PROJECT_DIR$/src/lib/pages/LoginPage/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/pages/LoginPage/view.jsx" afterPath="$PROJECT_DIR$/src/lib/pages/LoginPage/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/pages/ShowPage/index.js" afterPath="$PROJECT_DIR$/src/lib/pages/ShowPage/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/pages/ShowPage/view.jsx" afterPath="$PROJECT_DIR$/src/lib/pages/ShowPage/view.jsx" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/reducers/channel.js" afterPath="$PROJECT_DIR$/src/lib/reducers/channel.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/reducers/index.js" afterPath="$PROJECT_DIR$/src/lib/reducers/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/reducers/publish.js" afterPath="$PROJECT_DIR$/src/lib/reducers/publish.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/reducers/show.js" afterPath="$PROJECT_DIR$/src/lib/reducers/show.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/reducers/site.js" afterPath="$PROJECT_DIR$/src/lib/reducers/site.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/sagas/file.js" afterPath="$PROJECT_DIR$/src/lib/sagas/file.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/sagas/index.js" afterPath="$PROJECT_DIR$/src/lib/sagas/index.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/sagas/publish.js" afterPath="$PROJECT_DIR$/src/lib/sagas/publish.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/sagas/show_asset.js" afterPath="$PROJECT_DIR$/src/lib/sagas/show_asset.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/sagas/show_channel.js" afterPath="$PROJECT_DIR$/src/lib/sagas/show_channel.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/sagas/show_uri.js" afterPath="$PROJECT_DIR$/src/lib/sagas/show_uri.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/selectors/channel.js" afterPath="$PROJECT_DIR$/src/lib/selectors/channel.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/selectors/publish.js" afterPath="$PROJECT_DIR$/src/lib/selectors/publish.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/selectors/show.js" afterPath="$PROJECT_DIR$/src/lib/selectors/show.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/selectors/site.js" afterPath="$PROJECT_DIR$/src/lib/selectors/site.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/canonicalLink.js" afterPath="$PROJECT_DIR$/src/lib/utils/canonicalLink.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/dynamicImport.js" afterPath="$PROJECT_DIR$/src/lib/utils/dynamicImport.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/file.js" afterPath="$PROJECT_DIR$/src/lib/utils/file.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/lbryUri.js" afterPath="$PROJECT_DIR$/src/lib/utils/lbryUri.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/metaTags.js" afterPath="$PROJECT_DIR$/src/lib/utils/metaTags.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/pageTitle.js" afterPath="$PROJECT_DIR$/src/lib/utils/pageTitle.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/publish.js" afterPath="$PROJECT_DIR$/src/lib/utils/publish.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/request.js" afterPath="$PROJECT_DIR$/src/lib/utils/request.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/components/utils/validate.js" afterPath="$PROJECT_DIR$/src/lib/utils/validate.js" />
-      <change beforePath="$PROJECT_DIR$/src/lib/index.jsx" afterPath="$PROJECT_DIR$/src/lib/index.jsx" />
+      <change beforePath="$PROJECT_DIR$/src/lib/actions/channel.js" afterPath="$PROJECT_DIR$/src/lib/actions/channel.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/actions/publish.js" afterPath="$PROJECT_DIR$/src/lib/actions/publish.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/actions/show.js" afterPath="$PROJECT_DIR$/src/lib/actions/show.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api/assetApi.js" afterPath="$PROJECT_DIR$/src/lib/api/assetApi.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api/channelApi.js" afterPath="$PROJECT_DIR$/src/lib/api/channelApi.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/api/fileApi.js" afterPath="$PROJECT_DIR$/src/lib/api/fileApi.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/AssetDisplay/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/AssetDisplay/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/ChannelClaimsDisplay/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelClaimsDisplay/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/ChannelCreateForm/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelCreateForm/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/ChannelLoginForm/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelLoginForm/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/ChannelSelect/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/ChannelSelect/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/Dropzone/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/Dropzone/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/NavBar/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/NavBar/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/PublishDetails/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishDetails/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/PublishMetadataInputs/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishMetadataInputs/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/PublishStatus/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishStatus/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/PublishThumbnailInput/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishThumbnailInput/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/PublishTitleInput/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishTitleInput/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/containers/PublishUrlInput/index.js" afterPath="$PROJECT_DIR$/src/lib/containers/PublishUrlInput/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/pages/ShowPage/index.js" afterPath="$PROJECT_DIR$/src/lib/pages/ShowPage/index.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/sagas/file.js" afterPath="$PROJECT_DIR$/src/lib/sagas/file.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/sagas/publish.js" afterPath="$PROJECT_DIR$/src/lib/sagas/publish.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/sagas/show_asset.js" afterPath="$PROJECT_DIR$/src/lib/sagas/show_asset.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/sagas/show_channel.js" afterPath="$PROJECT_DIR$/src/lib/sagas/show_channel.js" />
+      <change beforePath="$PROJECT_DIR$/src/lib/sagas/show_uri.js" afterPath="$PROJECT_DIR$/src/lib/sagas/show_uri.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -118,38 +37,18 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="view.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/containers/ShowChannel/view.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/docs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="package.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/app.js">
+      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/pages/AboutPage/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -161,52 +60,77 @@
         </entry>
       </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/components/ActiveStatusBar/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/lib/pages/ErrorPage/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".babelrc" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.babelrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-              <folding />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/index.jsx">
+        <entry file="file://$PROJECT_DIR$/src/lib/pages/HomePage/index.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#131#173#0" expanded="true" />
-                <element signature="e#1584#1643#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/reducers/index.js">
+        <entry file="file://$PROJECT_DIR$/src/lib/pages/LoginPage/index.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#40#0" expanded="true" />
+                <element signature="e#0#36#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/pages/LoginPage/view.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/pages/ShowPage/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="view.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/lib/pages/ShowPage/view.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="channel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/lib/actions/channel.js">
+        <entry file="file://$PROJECT_DIR$/src/lib/reducers/channel.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -215,13 +139,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsx" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/docs/index.jsx">
+      <file leaf-file-name="index.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/lib/reducers/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#40#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -248,6 +172,31 @@
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/src/docs/index.jsx" />
         <option value="$PROJECT_DIR$/src/lib/index.jsx" />
+        <option value="$PROJECT_DIR$/src/lib/sagas/publish.js" />
+        <option value="$PROJECT_DIR$/src/lib/sagas/file.js" />
+        <option value="$PROJECT_DIR$/src/lib/sagas/show_asset.js" />
+        <option value="$PROJECT_DIR$/src/lib/sagas/show_channel.js" />
+        <option value="$PROJECT_DIR$/src/lib/sagas/show_uri.js" />
+        <option value="$PROJECT_DIR$/src/lib/actions/channel.js" />
+        <option value="$PROJECT_DIR$/src/lib/actions/publish.js" />
+        <option value="$PROJECT_DIR$/src/lib/actions/show.js" />
+        <option value="$PROJECT_DIR$/src/lib/api/assetApi.js" />
+        <option value="$PROJECT_DIR$/src/lib/api/channelApi.js" />
+        <option value="$PROJECT_DIR$/src/lib/api/fileApi.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/AssetDisplay/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/ChannelClaimsDisplay/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/ChannelCreateForm/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/ChannelLoginForm/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/ChannelSelect/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/Dropzone/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/NavBar/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/PublishDetails/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/PublishMetadataInputs/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/PublishStatus/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/PublishThumbnailInput/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/PublishTitleInput/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/containers/PublishUrlInput/index.js" />
+        <option value="$PROJECT_DIR$/src/lib/pages/ShowPage/index.js" />
       </list>
     </option>
   </component>
@@ -306,6 +255,330 @@
               <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="lib" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ActiveStatusBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetPreview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ExpandingTextArea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="GAListener" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="InactiveStatusBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="Logo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="NavBarChannelOptionsDropdown" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="ProgressBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishPreview" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishUrlMiddleDisplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="SEO" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetDisplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetInfo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="AssetTitle" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ChannelClaimsDisplay" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ChannelCreateForm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ChannelLoginForm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ChannelSelect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="Dropzone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="FourOhFourPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="NavBar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishDetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishDisabledMessage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishMetadataInputs" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishStatus" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishThumbnailInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishTitleInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishTool" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="PublishUrlInput" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ShowAssetDetails" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ShowAssetLite" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="containers" type="462c0819:PsiDirectoryNode" />
+              <item name="ShowChannel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="AboutPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="ErrorPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="HomePage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="ShowPage" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spee.ch-components" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spee.ch-components" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="lib" type="462c0819:PsiDirectoryNode" />
+              <item name="reducers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -444,15 +717,16 @@
       <option name="presentableId" value="Default" />
       <updated>1522453441761</updated>
       <workItem from="1522453443068" duration="56000" />
-      <workItem from="1522453513208" duration="5549000" />
+      <workItem from="1522453513208" duration="6669000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5605000" />
+    <option name="totallyTimeSpent" value="6725000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -466,7 +740,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17430703" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -501,182 +775,465 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/docs/bundle.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/index.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/components/PublishPreview/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1522471972771" expanded="true" signature="279:343" ph="{&quot;MyHeader&quot;: _MyHeader.default...}" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="27" lean-forward="false" selection-start-line="8" selection-start-column="27" selection-end-line="8" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/actions/publish.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/components/PublishUrlMiddleDisplay/index.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1522472774236" expanded="true" signature="134:202" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="145:199" ph="{&quot;type&quot;: actions.FILE_SELECTED...}" />
-            <marker date="1522472774236" expanded="true" signature="234:283" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="245:280" ph="{&quot;type&quot;: actions.FILE_CLEAR...}" />
-            <marker date="1522472774236" expanded="true" signature="331:429" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="342:426" ph="{&quot;type&quot;: actions.METADATA_UPDATE...}" />
-            <marker date="1522472774236" expanded="true" signature="389:421" ph="{&quot;name&quot;: name...}" />
-            <marker date="1522472774236" expanded="true" signature="468:536" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="479:533" ph="{&quot;type&quot;: actions.CLAIM_UPDATE...}" />
-            <marker date="1522472774236" expanded="true" signature="585:659" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="596:656" ph="{&quot;type&quot;: actions.SET_PUBLISH_IN_CHANNEL...}" />
-            <marker date="1522472774236" expanded="true" signature="716:824" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="727:821" ph="{&quot;type&quot;: actions.PUBLISH_STATUS_UPDATE...}" />
-            <marker date="1522472774236" expanded="true" signature="780:816" ph="{&quot;status&quot;: status...}" />
-            <marker date="1522472774236" expanded="true" signature="869:964" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="880:961" ph="{&quot;type&quot;: actions.ERROR_UPDATE...}" />
-            <marker date="1522472774236" expanded="true" signature="924:956" ph="{&quot;name&quot;: name...}" />
-            <marker date="1522472774236" expanded="true" signature="1019:1104" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="1030:1101" ph="{&quot;type&quot;: actions.SELECTED_CHANNEL_UPDATE...}" />
-            <marker date="1522472774236" expanded="true" signature="1165:1256" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="1176:1253" ph="{&quot;type&quot;: actions.TOGGLE_METADATA_INPUTS...}" />
-            <marker date="1522472774236" expanded="true" signature="1297:1365" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="1308:1362" ph="{&quot;type&quot;: actions.THUMBNAIL_NEW...}" />
-            <marker date="1522472774236" expanded="true" signature="1407:1482" ph="{...}" />
-            <marker date="1522472774236" expanded="true" signature="1418:1479" ph="{&quot;type&quot;: actions.PUBLISH_START...}" />
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/actions/show.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/components/SEO/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="12" column="10" lean-forward="false" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1522472773936" expanded="false" signature="7:166" ph="..." />
-            <marker date="1522472773936" expanded="true" signature="238:310" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="249:307" ph="{&quot;type&quot;: actions.HANDLE_SHOW_URI...}" />
-            <marker date="1522472773936" expanded="true" signature="352:421" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="363:418" ph="{&quot;type&quot;: actions.REQUEST_ERROR...}" />
-            <marker date="1522472773936" expanded="true" signature="485:690" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="581:687" ph="{&quot;type&quot;: actions.CHANNEL_REQUEST_NEW...}" />
-            <marker date="1522472773936" expanded="true" signature="773:1151" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="914:1148" ph="{&quot;type&quot;: actions.ASSET_REQUEST_NEW...}" />
-            <marker date="1522472773936" expanded="true" signature="963:1143" ph="{&quot;name&quot;: name...}" />
-            <marker date="1522472773936" expanded="true" signature="1029:1136" ph="{&quot;id&quot;: id...}" />
-            <marker date="1522472773936" expanded="true" signature="1060:1127" ph="{&quot;name&quot;: channelName...}" />
-            <marker date="1522472773936" expanded="true" signature="1211:1319" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="1222:1316" ph="{&quot;type&quot;: actions.REQUEST_UPDATE...}" />
-            <marker date="1522472773936" expanded="true" signature="1268:1311" ph="{&quot;requestType&quot;: requestType...}" />
-            <marker date="1522472773936" expanded="true" signature="1379:1464" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="1390:1461" ph="{&quot;type&quot;: actions.REQUEST_LIST_ADD...}" />
-            <marker date="1522472773936" expanded="true" signature="1568:1676" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="1579:1673" ph="{&quot;type&quot;: actions.ASSET_ADD...}" />
-            <marker date="1522472773936" expanded="true" signature="1781:1884" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="1792:1881" ph="{&quot;type&quot;: actions.CHANNEL_ADD...}" />
-            <marker date="1522472773936" expanded="true" signature="1958:2068" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="1969:2065" ph="{&quot;type&quot;: actions.CHANNEL_CLAIMS_UPDATE_ASYNC...}" />
-            <marker date="1522472773936" expanded="true" signature="2135:2242" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="2146:2239" ph="{&quot;type&quot;: actions.CHANNEL_CLAIMS_UPDATE_SUCCESS...}" />
-            <marker date="1522472773936" expanded="true" signature="2310:2392" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="2321:2389" ph="{&quot;type&quot;: actions.FILE_REQUESTED...}" />
-            <marker date="1522472773936" expanded="true" signature="2443:2524" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="2454:2521" ph="{&quot;type&quot;: actions.FILE_AVAILABILITY_UPDATE...}" />
-            <marker date="1522472773936" expanded="true" signature="2575:2650" ph="{...}" />
-            <marker date="1522472773936" expanded="true" signature="2586:2647" ph="{&quot;type&quot;: actions.DISPLAY_ASSET_ERROR...}" />
+            <element signature="e#0#38#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/docs/index.html">
+    <entry file="file://$PROJECT_DIR$/src/lib/components/SEO/view.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/AssetTitle/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/AssetTitle/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.babelrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="10" lean-forward="false" selection-start-line="2" selection-start-column="10" selection-end-line="2" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelClaimsDisplay/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
-          <caret line="1" column="16" lean-forward="false" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+          <caret line="1" column="39" lean-forward="false" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/components/ActiveStatusBar/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/docs/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="4" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/actions/channel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/app.js">
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelClaimsDisplay/view.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelCreateForm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="37" lean-forward="false" selection-start-line="3" selection-start-column="37" selection-end-line="3" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelCreateForm/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelLoginForm/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelLoginForm/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelSelect/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="71" lean-forward="false" selection-start-line="1" selection-start-column="71" selection-end-line="1" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ChannelSelect/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/Dropzone/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/Dropzone/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/FourOhFourPage/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/FourOhFourPage/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/NavBar/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="39" lean-forward="false" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/NavBar/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishDetails/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="41" lean-forward="false" selection-start-line="1" selection-start-column="41" selection-end-line="1" selection-end-column="41" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishDetails/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishDisabledMessage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishDisabledMessage/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishMetadataInputs/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" lean-forward="false" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishStatus/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="25" lean-forward="false" selection-start-line="1" selection-start-column="25" selection-end-line="1" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishMetadataInputs/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishStatus/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishThumbnailInput/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="32" lean-forward="false" selection-start-line="1" selection-start-column="32" selection-end-line="1" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishThumbnailInput/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishTitleInput/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="30" lean-forward="false" selection-start-line="1" selection-start-column="30" selection-end-line="1" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishTitleInput/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishTool/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishTool/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishUrlInput/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="40" lean-forward="false" selection-start-line="0" selection-start-column="40" selection-end-line="0" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/PublishUrlInput/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ShowAssetDetails/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ShowAssetDetails/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ShowAssetLite/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ShowAssetLite/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ShowChannel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/containers/ShowChannel/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pages/AboutPage/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pages/ErrorPage/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pages/HomePage/index.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pages/LoginPage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#36#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pages/LoginPage/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pages/ShowPage/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="37" lean-forward="false" selection-start-line="1" selection-start-column="37" selection-end-line="1" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/pages/ShowPage/view.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/lib/reducers/channel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -687,25 +1244,6 @@
           <folding>
             <element signature="e#0#40#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/lib/index.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="52" column="14" lean-forward="true" selection-start-line="52" selection-start-column="14" selection-end-line="52" selection-end-column="14" />
-          <folding>
-            <element signature="e#131#173#0" expanded="true" />
-            <element signature="e#1584#1643#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>

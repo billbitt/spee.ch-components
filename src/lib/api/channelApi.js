@@ -1,4 +1,4 @@
-import Request from '../components/utils/request';
+import Request from '../utils/request';
 
 export function getChannelData (host, id, name) {
   if (!id) id = 'none';

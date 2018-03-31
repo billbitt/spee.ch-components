@@ -1,5 +1,5 @@
 import { connect } from 'react-redux';
-import { onNewThumbnail } from '../../../actions/publish';
+import { onNewThumbnail } from '../../actions/publish';
 import View from './view';
 
 const mapStateToProps = ({ publish: { file } }) => {

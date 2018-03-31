@@ -1,5 +1,5 @@
 import {connect} from 'react-redux';
-import {updateMetadata} from '../../../actions/publish';
+import {updateMetadata} from '../../actions/publish';
 import View from './view';
 
 const mapStateToProps = ({ publish }) => {
