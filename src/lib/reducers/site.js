@@ -37,7 +37,6 @@ const customizedSiteReducer = (siteConfig) => {
         defaultThumbnail: 'default thumbnail',
     }
   }
-  console.log('site initial state:', initialState);
   return (state = initialState, action) => {
       switch (action.type) {
           default:

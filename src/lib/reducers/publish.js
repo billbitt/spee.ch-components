@@ -38,7 +38,6 @@ const customizedPublishReducer = (siteConfig) => {
     },
     thumbnail: null,
   };
-  console.log('publishing initial config:', '(not shown)');
   return (state = initialState, action) => {
       switch (action.type) {
           case actions.FILE_SELECTED:
