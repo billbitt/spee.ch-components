@@ -3,12 +3,13 @@ import { Route, Switch } from 'react-router-dom';
 import { dynamicImport } from './utils/dynamicImport';
 
 const customizedApp = ({customPages}) => {
+    console.log('customPages:', customPages);
     // note: update this to only take in a custom page config and not the whole siteConfig,
     // otherwise client might receive sensative data from siteConfig
-    const HomePage = dynamicImport('pages/HomePage', customPages) || require('./pages/HomePage').default;
-    const AboutPage = dynamicImport('pages/AboutPage', customPages) || require('./pages/AboutPage').default;
-    const LoginPage = dynamicImport('pages/LoginPage', customPages) || require('./pages/LoginPage').default;
-    const ShowPage = dynamicImport('pages/ShowPage', customPages) || require('./pages/ShowPage').default;
+    const HomePage = dynamicImport('HomePage', customPages) || require('./pages/HomePage').default;
+    const AboutPage = dynamicImport('AboutPage', customPages) || require('./pages/AboutPage').default;
+    const LoginPage = dynamicImport('LoginPage', customPages) || require('./pages/LoginPage').default;
+    const ShowPage = dynamicImport('ShowPage', customPages) || require('./pages/ShowPage').default;
     const FourOhFourPage = dynamicImport('pages/FourOhFourPage', customPages) || require('./pages/FourOhFourPage').default;
 
     return () => {
@@ -23,6 +24,6 @@ const customizedApp = ({customPages}) => {
             </Switch>
         );
     };
-}
+};
 
 export default customizedApp;
