@@ -1,14 +1,15 @@
 # Spee.ch Component Library
 
 ## Getting started
+
 ### install
 ```
 npm install spee.ch-components --save 
 ```
+
 ### use
 #### basic components 
 These components do not take an options and can be used as they are imported
-
 ```
 import { NavBar } from 'spee.ch-components';
 ...
@@ -20,8 +21,8 @@ These components take a config param, and must be initialized by calling them as
 You can pass custom configs (see documentation for which customization each component takes)...
 ```
 import { App } from 'spee.ch-components';
-const config = {...};
-MyApp = App(config)
+const customPages = {...};
+MyApp = App(customPages)
 ...
 <MyApp />
 ```

@@ -10,7 +10,7 @@ function getDeepestChildValue (parent, childrenKeys) {
   return child;
 }
 
-export const dynamicImport = (filePath, {customComponents}) => {
+export const dynamicImport = (filePath, config) => {
   // validate inputs
   if (!filePath) {
     throw new Error('no file path provided to dynamicImport()');
@@ -20,7 +20,7 @@ export const dynamicImport = (filePath, {customComponents}) => {
     console.log('dynamicImport > filePath type:', typeof filePath);
     throw new Error('file path provided to dynamicImport() must be a string');
   }
-  if (!customComponents) {
+  if (!config) {
     console.log('No customComponents found in site config');
     return null;
   }
@@ -28,7 +28,7 @@ export const dynamicImport = (filePath, {customComponents}) => {
   const folders = filePath.split('/').filter(folderName => folderName.replace(/\s/g, '').length);
   // check for the component corresponding to file path in the site config object
   // i.e. customComponents[folders[0]][folders[2][...][folders[n]]
-  const component = getDeepestChildValue(customComponents, folders);
+  const component = getDeepestChildValue(config, folders);
   if (component) {
     console.log('Found custom component for', filePath);
     return component;
