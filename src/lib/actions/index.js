@@ -1,9 +1,7 @@
-import { channel } from './channel';
-import { publish } from './publish';
-import { show } from './show';
+// import { } from './channel';
+// import { } from './publish';
+import { onHandleShowPageUri } from './show';
 
 export default {
-  channel,
-  publish,
-  show,
+  onHandleShowPageUri,
 }
